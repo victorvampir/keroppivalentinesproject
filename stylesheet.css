@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+#keroppi-gif {
+    width: 500px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+btn {
+    border-radius: 5px;
+    border: none;
+}
+
+#yes-btn {
+    color: black;
+    background-color: palegreen;
+}
+
+#no-btn {
+    color: black;
+    background-color: coral;
+}
+
+.yes-container h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.no-container h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
