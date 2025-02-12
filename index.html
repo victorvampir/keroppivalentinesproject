@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day!</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript">
+        function Redirect() {
+            location.href="yes.html"
+        }
+    </script>
+    <script type="text/javascript">
+        function Nob() {
+            location.href="no.html"
+        }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+        <!--Gif or picture!-->
+        <img src="keroppi-love.gif" id="keroppi-gif" alt="a cute picture of keroppi"/>
+        <!--Question-->
+        <h1>Will you be my valentine?</h1>
+    </div>
+    <div class="btn-container">
+        <!--Buttons-->
+        <button id="yes-btn" onclick="Redirect()">Yes!</button>
+        <button id="no-btn" onclick="Nob()">No Way!</button>
+    </div>
+  </body>
+
+</html>
