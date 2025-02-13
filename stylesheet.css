@@ -32,11 +32,13 @@ btn {
 #yes-btn {
     color: black;
     background-color: palegreen;
+    border-radius: 12px;
 }
 
 #no-btn {
     color: black;
     background-color: coral;
+    border-radius: 12px;
 }
 
 .yes-container h1 {
